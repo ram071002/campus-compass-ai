@@ -106,7 +106,7 @@ roommates = pd.DataFrame([
     {"Name": "Neel", "Cleanliness": 5, "NoiseTolerance": 1, "SleepSchedule": 2, "FoodPreference": "Veg", "Budget": 1000, "Note": "Quiet roommate with similar routines."},
     {"Name": "Dheeraj", "Cleanliness": 3, "NoiseTolerance": 4, "SleepSchedule": 5, "FoodPreference": "Non-Veg", "Budget": 800, "Note": "Night owl and music lover."},
     {"Name": "Manohar", "Cleanliness": 2, "NoiseTolerance": 3, "SleepSchedule": 4, "FoodPreference": "Non-Veg", "Budget": 750, "Note": "Relaxed and friendly personality."},
-    {"Name": "Jassi", "Cleanliness": 5, "NoiseTolerance": 1, "SleepSchedule": 2, "FoodPreference": "Veg", "Budget": 950, "Note": "Organized and enjoys cooking healthy meals."},
+    {"Name": "Gayu", "Cleanliness": 5, "NoiseTolerance": 1, "SleepSchedule": 2, "FoodPreference": "Veg", "Budget": 950, "Note": "Organized and enjoys cooking healthy meals."},
 ])
 le = LabelEncoder()
 roommates["FoodPreference"] = le.fit_transform(roommates["FoodPreference"])
